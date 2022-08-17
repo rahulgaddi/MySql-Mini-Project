@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100vh;
+}
+
+.navbar-style {
+    box-shadow: 0 5px 10px #efefef;
+}
+
+.navbar-style a:hover {
+    color: black;
+    background: green;
+}
+
+.navbar-style a.active {
+    background: lightgray;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 55px;
+}
+
+li a {
+    color: black;
+}
+
+#jum1 {
+    background-image: url("image2.jpg");
+    border-radius: 45px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 45px;
+    padding: 120px;
+    position: relative;
+    left: 0px;
+}
+
+#vehicle22 {
+    padding-left: 30px;
+    font-family: cursive;
+    color: darkblue;
+}
+
+#login {
+    padding: 10px;
+}
+
+#login1 {
+    padding-right: 40px;
+}
+
+#login2 {
+    position: relative;
+    width: 100px;
+    bottom: 100px;
+    left: 150px;
+    color: white;
+    background-color: blue;
+}
+
+#login3 {
+    position: relative;
+    width: 100px;
+    bottom: 70px;
+    left: 35px;
+    color: white;
+    background-color: transparent;
+}
+
+.big-text {
+    font-size: 52px;
+    margin: 20px 0;
+    color: darkorange
+}
+
+a.btn {
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+a.btn-first {
+    background-color: darkorange;
+    color: #fff;
+}
+
+a.btn-second {
+    background: transparent;
+    border: 1px solid darkorange;
+    color: black;
+}
+
+a.btn:hover {
+    background: darkorange;
+    border: none;
+    color: #fff;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+}
+
+.banner-info,
+.banner-image {
+    margin: 30px 0;
+}
